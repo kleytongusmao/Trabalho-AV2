@@ -1,0 +1,44 @@
+Trabalho de Python - AV2
+Nome: Kleyton da Silva Gusmão 
+Matrícula: 202208622569
+
+
+1) Faça função que calcule a área do trapézio, dados:
+
+baseMaior = input('Valor de uma base: ')
+baseMenor = input('Valor da outra base: ')
+altura    = input('Valor da Altura: ')
+area = (baseMaior + baseMenor) * altura / 2.0
+print 'Area: ', area
+
+
+2)Faça um programa em Python com uma função chamada soma_imposto. A função
+possui dois parâmetros formais:
+
+def somaImposto(taxaImposto, Custo):
+    return (1 + taxaImposto/100)*Custo
+t = float(input('Digite a taxa de imposto: '))
+c = float(input('Digite o custo: '))
+print('Valor com imposto:', somaImposto(t,c))
+
+
+3) Faça um programa que converta da notação de 24 horas para a notação de 12 horas.
+Por exemplo, o programa deve converter 14:25 em 2:25 P.M. 
+
+hora = int(input("Digite a hora: "))
+minuto = int(input("Digite os minutos: "))
+
+def converter_hora(hora):
+    return (hora -12)
+
+def imprime_hora(hora,minuto):
+    if(hora <= 12):
+        print(hora,minuto,"AM")
+    else:
+        print(converter_hora(hora), minuto, "PM")
+
+imprime_hora(hora, minuto)
+
+Digite a hora: 14
+Digite os minutos: 25
+2 25 PM
