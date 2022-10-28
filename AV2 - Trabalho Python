@@ -1,0 +1,49 @@
+Trabalho de Python - AV2
+Nome: Kleyton da Silva Gusmão
+Matrícula: 202208622569
+
+
+1) B = float(input("Entre com o valor da base maior: "))
+b = float(input("Entre com o valor da base menor: "))
+h = float(input("Entre com o valor da altura: "))
+a = 2
+
+formula = (B + b) * h / a
+
+print('A área do trapézio é', 4)
+
+a)Entre com o valor da base maior: 2
+
+b)Entre com o valor da base menor: 2
+
+c)Entre com o valor da altura: 2
+
+
+2) def somaImposto(taxaImposto, Custo):
+    return (1 + taxaImposto/100)*Custo
+t = float(input('Digite a taxa de imposto: '))
+c = float(input('Digite o custo: '))
+print('Valor com imposto:', somaImposto(t,c))
+
+a)Digite a taxa de imposto: 4
+
+b)Digite o custo: 4
+Valor com imposto: 4.16
+
+
+3) hora = int(input("Digite a hora: "))
+
+minuto = int(input("Digite os minutos: "))
+
+def converter_hora(hora):
+
+         return (hora -12)
+
+def imprime_hora(hora,minuto):
+
+        if(hora <= 12):
+           print(hora,minuto,"AM")
+        else:
+           print(converter_hora,minuto,"PM")
+
+print(imprime_hora)
