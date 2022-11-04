@@ -12,6 +12,11 @@ area = (baseMaior + baseMenor) * altura / 2.0
 print 'Area: ', area
 
 
+Valor de uma base: 14
+Valor da outra base: 12
+Valor da Altura: 3.0
+
+
 2)Faça um programa em Python com uma função chamada soma_imposto. A função
 possui dois parâmetros formais:
 
@@ -20,6 +25,10 @@ def somaImposto(taxaImposto, Custo):
 t = float(input('Digite a taxa de imposto: '))
 c = float(input('Digite o custo: '))
 print('Valor com imposto:', somaImposto(t,c))
+
+Digite a taxa de imposto: 4
+Digite o custo: 4.88
+Valor com imposto: 5.0752
 
 
 3) Faça um programa que converta da notação de 24 horas para a notação de 12 horas.
