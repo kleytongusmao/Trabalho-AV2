@@ -5,16 +5,17 @@ Matrícula: 202208622569
 
 1) Faça função que calcule a área do trapézio, dados:
 
-baseMaior = input('Valor de uma base: ')
-baseMenor = input('Valor da outra base: ')
-altura    = input('Valor da Altura: ')
+baseMaior = float(input('Valor de uma base: '))
+baseMenor = float(input('Valor da outra base: '))
+altura    = float(input('Valor da Altura: '))
 area = (baseMaior + baseMenor) * altura / 2.0
 print 'Area: ', area
 
+Valor da base: 2.33
+Valor da outra base: 3.44
+Valor da Altura: 4.01
+Area:  11.56885
 
-Valor de uma base: 14
-Valor da outra base: 12
-Valor da Altura: 3.0
 
 
 2)Faça um programa em Python com uma função chamada soma_imposto. A função
